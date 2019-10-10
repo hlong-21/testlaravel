@@ -23,4 +23,6 @@
         <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
     </body>
 </html>
-<!-- đây là file rất quan trongj có thể áp dụng cho tất cả các file khác, khi tạo file này rồi thì ko cần tạo thêm nưã -->
+<!-- đây là file rất quan trongj có thể áp dụng cho tất cả các file khác, khi tạo file này rồi thì ko cần tạo thêm nữa -->
+<!--khi lưu trữ file này thì ko cần phải tạo thêm nhiều file html như trước
+và đó là lợi thế của PHP hơi nhiều so với các code khác, đoạn code trên có chứa liên kết tới các file khác-->
