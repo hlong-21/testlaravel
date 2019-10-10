@@ -16,7 +16,12 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        User::create([
+            'name' => $data['name'], 
+            'email' => $data['email'], 
+            'password' => bcrypt($data['password']),
+        ])
+        
     ];
 
     /**
